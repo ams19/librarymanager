@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="528.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainControllerSearchResult">
+   <children>
+      <Label layoutX="20.0" layoutY="287.0" prefHeight="43.0" prefWidth="103.0" />
+      <Label layoutX="20.0" layoutY="-7.0" prefHeight="108.0" prefWidth="381.0" text="   SEARCH RESULT">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="result" layoutX="11.0" layoutY="88.0" prefHeight="365.0" prefWidth="381.0" text="                                No Result" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

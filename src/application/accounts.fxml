@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600" prefWidth="500" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController1">
+   <children>
+      <TextField layoutX="147.0" layoutY="341.0" prefHeight="41.0" prefWidth="209.0" promptText="Username">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <PasswordField layoutX="147.0" layoutY="397.0" prefHeight="41.0" prefWidth="209.0" promptText="Password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="149.0" layoutY="300.0" prefHeight="41.0" prefWidth="204.0" text="     Enter Login Details">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <ImageView disable="true" fitHeight="223.0" fitWidth="249.0" layoutX="149.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="13.0" layoutY="-11.0" prefHeight="75.0" prefWidth="466.0" text="      NATIONAL INSTITUTE OF TECHNOLOGY, JALANDHAR" textFill="#1a0b0b">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="203.0" layoutY="449.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="85.0" text="Login">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="240.0" layoutY="500.0" text="OR" />
+      <Button layoutX="203.0" layoutY="533.0" mnemonicParsing="false" onAction="#clicknew" prefHeight="26.0" prefWidth="85.0" text="New User" />
+   </children>
+</AnchorPane>
